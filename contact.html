@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AquaHouse: Contact</title>
+</head>
+<body class="contact">
+    
+    <div id="navbar">
+    
+        <a href="index.html"> Home </a>
+        <a href="about.html"> About </a>
+        <a href="contact.html"> Contact </a>
+    
+    </div>
+  <br><br>
+		<h1>Contact Us</h1>
+		
+	<br><br>
+	<main>
+		<p>If you have any questions or would like to book a tour, please get in touch with us by filling out the form below:</p>
+		
+		<form action="/contact" method="post">
+            <br><br>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<br><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<br><br>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<br><br>
+			<input type="submit" value="Send">
+		</form>
+		<br><br>
+		<p class="confirmation-message" style="display: none;">Thank you for your message! We'll get back to you as soon as possible.</p>
+	</main>
+	<br><br>
+	<footer>
+		<p>&copy; 2023 AquaHouse. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
